@@ -14,9 +14,9 @@ Step 3) On your terminal run: npm i && pm2 start vaccineNotifier.js
 To close the app, run: pm2 stop vaccineNotifier.js && pm2 delete vaccineNotifier.js
  */
 
-const PINCODE = process.env.PINCODE
-const EMAIL = process.env.EMAIL
-const AGE = process.env.AGE
+const PINCODE = 700071
+const EMAIL = gauravdugarsmgs@gmail.com
+const AGE = 39
 
 async function main(){
     try {
